@@ -1,0 +1,6 @@
+{
+  "name": "LoginComponent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LoginComponent.jsx"
+}

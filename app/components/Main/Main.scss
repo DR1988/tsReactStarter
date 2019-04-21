@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face{
+  font-family: SFUIText-Regular;
+  src: url("../../static/fonts/SF Pro Text/SFUIText-Regular.ttf");
+}
+
+@font-face{
+  font-family: SFUIText-SemiBold;
+  src: url("../../static/fonts/SF Pro Text/SFUIText-Bold.ttf");
+}
+
+@font-face {
+  font-family: NEXTART;
+  src: url("../../static/fonts/nextArt/NEXT ART_SemiBold.otf");
+}

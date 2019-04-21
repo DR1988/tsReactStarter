@@ -1,0 +1,20 @@
+.product_choser{
+  display: flex;
+  .image_container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid transparent;
+    img{
+      width: auto;
+      height: 150px;
+    }
+  }
+  .isChosen{
+    border: 2px solid red;
+  }
+  .product_name{
+    text-align: center;
+  }
+}
+

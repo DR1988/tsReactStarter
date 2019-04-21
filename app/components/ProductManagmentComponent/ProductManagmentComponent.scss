@@ -1,0 +1,40 @@
+.name_container{
+  margin: 10px 0;
+  h2{
+    margin: 0;
+  }
+}
+
+.image_container{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  .image_content{
+    height: 200px;
+    width: auto;
+  }
+}
+.choser_container{
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  label {
+    width: 150px;
+    line-height: 32px;
+    cursor: pointer;
+  }
+}
+.input_text{
+  margin: 0 10px;
+  max-width: 35%;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.7);
+  outline: none;
+  padding: .4rem 0 .4rem .5rem;
+}
+
+.imgLoader{
+  display: none;
+}

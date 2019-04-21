@@ -1,0 +1,6 @@
+{
+  "name": "ProductManagmentContainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProductManagmentContainer.jsx"
+}

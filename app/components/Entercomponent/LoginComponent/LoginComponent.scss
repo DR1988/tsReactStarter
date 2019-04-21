@@ -1,0 +1,53 @@
+.login{
+  max-width: 450px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  margin-top: 100px;
+  .login_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .checkbox_container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .label_sign{
+        cursor: pointer;
+      }
+      .checkbox{
+        margin: 0 5px;
+        height: 20px;
+        width: 20px;
+      }
+    }
+    .login_box{
+      margin: 20px 0 0 0;
+      .label_sign {
+        font-family: NEXTART;
+        font-size: 12px;
+      }
+      .textbox {
+        width: 100%;
+        margin: 3px 0 0 0;
+        height: 35px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid #E6EBF1;
+        padding: 8px;
+        background-color: #E6EBF1;
+        // text-indent: 5px;
+        // border: none;
+      }
+    }
+  }
+}
+
+.login_sign{
+  color: #A8ABAF;
+  font-size: 36px;
+  font-family: NEXTART;
+  font-weight: normal;
+  text-transform: uppercase;
+}

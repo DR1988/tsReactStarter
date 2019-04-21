@@ -1,0 +1,6 @@
+{
+  "name": "RootComponent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RootComponent.jsx"
+}

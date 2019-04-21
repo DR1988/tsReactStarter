@@ -1,0 +1,29 @@
+@import './constants.scss';
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (min-width: 768px) {
+    width: $small;
+  }
+  @media (min-width: 992px) {
+    width: $medium;
+  }
+  @media (min-width: 1200px) {
+    width: $large;
+  }
+}
+.contaner-fluid{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container_flexed_spaced{
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}

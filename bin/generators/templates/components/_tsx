@@ -1,0 +1,10 @@
+import React from 'react'
+import s from './{name}.scss'
+
+const {name} = () => (
+  <div className={s.root}>
+
+  </div>
+)
+
+export default {name}
